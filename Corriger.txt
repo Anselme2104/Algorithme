@@ -12,3 +12,21 @@ Début
   Ecrire choix;
  Fin pour
 Fin
+
+
+
+
+Exercicie2 :
+
+Algorithme table_de_multiplication;
+
+Var:
+i,a,mult:entiers;
+Début
+  Ecrire "Entrer un nombre";
+  Lire a;
+ Pour i → 1 à 10 faire:
+  mult ← a*i;
+  Ecrire a,"*",i,=",mult;
+ Fin pour
+Fin
