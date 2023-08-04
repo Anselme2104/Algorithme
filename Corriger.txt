@@ -129,3 +129,19 @@ Début
  jusqu'a (index - 1)
   Ecrire "Le plus grand de ces nombres est",max;
 Fin
+
+
+Exercicie8:
+
+Algorithme table_de_multiplication;
+
+Var:
+i,a,mult:entiers;
+Début
+  Ecrire "Entrer un nombre";
+  Lire a;
+ Pour i → 1 à 10 faire:
+  mult ← a*i;
+  Ecrire a,"*",i,=",mult;
+ Fin pour
+Fin
