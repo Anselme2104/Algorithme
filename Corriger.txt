@@ -1,0 +1,14 @@
+Exercice1:
+
+Algorithme recherche;
+
+Var: 
+i,choix:entiers;
+Début
+  Ecrire "Entrer un nombre";
+  Lire choix;
+ Pour i → 1 à 10 faire:
+  choix ← choix + 1
+  Ecrire choix;
+ Fin pour
+Fin
